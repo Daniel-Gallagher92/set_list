@@ -1,4 +1,4 @@
-require 'rails-helper'
+require 'rails_helper'
 
 RSpec.describe 'the songs index page' do 
   #should this be merged with artist_songs_index?
