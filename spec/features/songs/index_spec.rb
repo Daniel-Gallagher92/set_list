@@ -13,7 +13,6 @@ RSpec.describe 'the songs index page' do
         
         
         visit "/songs/" 
-        # save_and_open_page
 
         expect(page).to have_content("All Songs")
       end
